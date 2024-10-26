@@ -1,0 +1,144 @@
+body{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    
+}
+#btn button{
+    width:80px;
+    height:30px;
+    background-color: rgb(36, 141, 232);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 2px 2px;
+    border-radius: 3px;
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+    position: sticky;
+    top:0px;
+    
+    
+}
+#btn button:hover{
+    background-color: hsl(208, 81%, 43%);
+}
+#btn button:active{
+    background-color: rgba(44, 136, 216, 0.705);
+}
+.title{
+    resize: none;
+    border: none;
+    width: 85%;
+    height: 30px;
+    outline: none;
+}
+.title::-webkit-scrollbar{
+    width:0px;
+}
+#textarea11{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.para{
+    resize: none;
+    border: none;
+    outline: none;
+    width: 92%;
+    height: 55px;
+    padding-left: 2px;
+    padding-right: 2px;
+   
+}
+.para::-webkit-scrollbar{
+    width:0px;
+}
+.textarea2{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.cancel{
+    font-size: 1.1rem;
+    border: none;
+    color: rgba(36, 36, 36, 0.721);
+    background-color:rgba(255, 255, 255, 0);
+    cursor: pointer;
+    font-weight: 300;
+}
+.cancel:hover{
+    font-size: 1.2rem;
+}
+.cancel:active{
+    font-size: 1rem;
+}
+.realboxper{
+    width:90%;
+    box-shadow: 1px 1px 5px 1px  hsla(0, 0%, 0%, 0.377);
+    border-radius: 3px;
+    
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 10px;  
+}
+#container{
+   
+    width: 100%;
+    height: 100vh;
+   
+}
+#again{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1%;
+    width:80%;
+    height: 80vh;
+    
+}
+.realboxper{
+    
+    padding: 5px;
+    text-align: center;
+   
+}
+
+@media (max-width:1024px) {
+    .realboxper{
+        width:90%;
+    }
+    #tot{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        gap: 1%;
+        width:80%;
+        height: 80vh;
+        
+    }
+}
+@media (max-width:700px) {
+    .realboxper{
+        width:90%;
+        margin-left: 10px;
+    }
+    #tot{
+        display: grid;
+        grid-template-columns:   1fr;
+        gap: 1%;
+    }
+
+}
